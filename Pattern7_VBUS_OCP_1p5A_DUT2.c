@@ -221,11 +221,11 @@ u8 _by_Pattern7_VBUS_OCP_1p5A_dut2()
 		}
 
 		xil_printf(">>>>>>>>>>>> dut2_pattern7_vbus_ocp_1p5a_test_pass! <<<<<<<<<<<<\r\n");
-		xil_printf("dut2_efuse_1p5a=0x%x\r\n\r\n",dut2.g_vbusocp_writeefuse_1p5a);
+		xil_printf("dut2_efuse_1p5a=0x%x\r\n",dut2.g_vbusocp_writeefuse_1p5a);
 
 		dut2.g_uartPatternNum = 0x09;
 		result_output_for_v50(XPAR_AXI_GPIO_dut2_1_BASEADDR,dut2.g_uartPatternNum);
-		//xil_printf("dut2.g_uartPatternNum = %x\r\n\r\n",dut2.g_uartPatternNum);
+		xil_printf("dut2 bypass 3A test, dut2.g_uartPatternNum = %x\r\n\r\n",dut2.g_uartPatternNum);
 		break;
 	}
 	}

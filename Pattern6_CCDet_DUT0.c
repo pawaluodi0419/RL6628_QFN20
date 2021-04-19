@@ -71,7 +71,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC1_0.2V_Calibration\r\n");
 		    break;
@@ -113,7 +113,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC2_0.2V_Calibration\r\n");
 		    break;
@@ -156,7 +156,7 @@ u8 _by_Pattern6_CCDet_dut0()
 
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC1_0.4V_Calibration\r\n");
 		    break;
@@ -198,7 +198,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC2_0.4V_Calibration\r\n");
 		    break;
@@ -244,7 +244,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 			////xil_printf("dut0_pattern6_CC1_0.8V_Calibration\r\n");
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[6] = %x\r\n",dut0.g_ccdet_calibration_data_buf[6]);
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[7] = %x\r\n",dut0.g_ccdet_calibration_data_buf[7]);
@@ -293,7 +293,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 			////xil_printf("dut0_pattern6_CC2_0.8V_Calibration\r\n");
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[6] = %x\r\n",dut0.g_ccdet_calibration_data_buf[6]);
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[7] = %x\r\n\r\n",dut0.g_ccdet_calibration_data_buf[7]);
@@ -350,7 +350,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 			////xil_printf("dut0_pattern6_CC1_0.66V_Calibration\r\n");
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[6] = %x\r\n",dut0.g_ccdet_calibration_data_buf[6]);
 
@@ -399,7 +399,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 			////xil_printf("dut0_pattern6_CC2_0.66V_Calibration\r\n");
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[6] = %x\r\n",dut0.g_ccdet_calibration_data_buf[6]);
 			////xil_printf("dut0.g_ccdet_calibration_data_buf[7] = %x\r\n",dut0.g_ccdet_calibration_data_buf[7]);
@@ -444,7 +444,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC1_1.23V_Calibration\r\n");
 		    break;
@@ -486,7 +486,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC2_1.23V_Calibration\r\n");
 		    break;
@@ -528,7 +528,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC1_1.6V_Calibration\r\n");
 		    break;
@@ -570,7 +570,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC2_1.6V_Calibration\r\n");
 		    break;
@@ -612,7 +612,7 @@ u8 _by_Pattern6_CCDet_dut0()
 			dut0.g_ccdet_retest_signbit = 0;
 			dut0.g_ccdet_step++;
 			dut0.g_pattern_step = 0;
-			//////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+			xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
 		}
 			////////xil_printf("dut0_pattern6_CC1_2.6V_Calibration\r\n");
 		    break;
@@ -695,7 +695,7 @@ u8 _by_Pattern6_CCDet_dut0()
 
       		XGpio_0_WriteBit(0,LED_D6_OFFSET,g_ledD6Tg);
       		g_ledD6Tg=~g_ledD6Tg;
-      		////////xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
+      		//xil_printf("dut0.g_ccdet_step = %x\r\n",dut0.g_ccdet_step);
       		////////xil_printf("dut0.g_pattern_step = %x\r\n",dut0.g_pattern_step);
       		////xil_printf("dut0.g_ccdet_calibration_data_buf[4] =%x\r\n", dut0.g_ccdet_calibration_data_buf[4]);
       		////xil_printf("dut0.g_ccdet_calibration_data_buf[5] =%x\r\n", dut0.g_ccdet_calibration_data_buf[5]);

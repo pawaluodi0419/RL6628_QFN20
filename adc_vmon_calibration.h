@@ -19,8 +19,6 @@
 #ifndef _ADCVMON_Calibration_DUT_H_
 #define _ADCVMON_Calibration_DUT_H_
 
-
-
 #include <math.h>
 #include <stdio.h>
 
@@ -49,8 +47,8 @@
 
 #define MAX5825_DEV0_SLAVE_ADDR	0x00
 
-#define vmonlower_voltage_retest             0x22
-#define vmonhiger_voltage_retest             0x11
+#define vmonlower_voltage_retest         0x22
+#define vmonhiger_voltage_retest         0x11
 #define vmon_process_waiting	         0x00
 #define vmon_process_doing	             0x01
 #define vmon_calib_600mv	             0x04   //bit[1:0]=2b00 bit2 = 1b1
@@ -59,15 +57,14 @@
 #define vmon_calib_3000mv	             0x07   //bit[1:0]=2b11 bit2 = 1b1
 #define vmon_process_done_pass	         0x3f
 #define vmon_process_done_fail	         0x1f
+#define VMON_Efuse_Min	         		 0x0b
+#define VMON_Efuse_Max	                 0x13
+
 
 //extern global statement
-
-u8 _ccdet_calibration_dut0();
-u8 _ccdet_calibration_dut1();
-u8 _ccdet_calibration_dut2();
-u8 _ccdet_calibration_dut3();
-
-
-
+u8 _vmon_calibration_dut0();
+u8 _vmon_calibration_dut1();
+u8 _vmon_calibration_dut2();
+u8 _vmon_calibration_dut3();
 
 #endif

@@ -218,11 +218,11 @@ u8 _by_Pattern1_RC_Clock_dut0()
 					       dut0.g_dut_pattern_status_buf[2]++;
 					       dut0.g_uartPatternEnable = 0x00;
 					       dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
-					       dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
+					       //dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
 					       //dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
 					       //dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
 					       result_output_for_v50(XPAR_AXI_GPIO_dut0_1_BASEADDR,dut0.g_uartPatternNum);
-					       //xil_printf("dut3.g_uartPatternNum = %x\r\n\r\n",dut3.g_uartPatternNum);
+					       //xil_printf("dut0.g_uartPatternNum = %x\r\n\r\n",dut0.g_uartPatternNum);
 						   xil_printf("dut0_pattern1_rc_clock_pass!     read_mem:0x1132 =0x%x 0x1133 =0x%x\r\n\r\n",dut0.g_efuse_data_buf[17],dut0.g_efuse_data_buf[18]);
 						   //xil_printf("dut0.g_result_fail = %x\r\n",dut0.g_result_fail);
 						   ////xil_printf("dut0_read_mem:0x1132 =0x%x 0x1133 =0x%x\r\n\r\n",dut0.g_pattern_smbus_control_buf[10],dut0.g_pattern_smbus_control_buf[11]);

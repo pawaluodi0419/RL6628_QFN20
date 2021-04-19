@@ -388,7 +388,7 @@ int main()
 					}
 					case 0x02:
 					{
-						// _by_Pattern2_ADCcalibration_dut0();
+						_by_Pattern2_ADCcalibration_dut0();
 						break;
 					}
 					case 0x03:
@@ -467,7 +467,7 @@ int main()
 					}
 					case 0x02:
 					{
-						// _by_Pattern2_ADCcalibration_dut1();
+						_by_Pattern2_ADCcalibration_dut1();
 						break;
 					}
 					case 0x03:
@@ -546,7 +546,7 @@ int main()
 					}
 					case 0x02:
 					{
-						//_by_Pattern2_ADCcalibration_dut2();
+						_by_Pattern2_ADCcalibration_dut2();
 						break;
 					}
 					case 0x03:
@@ -625,7 +625,7 @@ int main()
 					}
 					case 0x02:
 					{
-						//_by_Pattern2_ADCcalibration_dut3();
+						_by_Pattern2_ADCcalibration_dut3();
 						break;
 					}
 					case 0x03:

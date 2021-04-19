@@ -223,8 +223,7 @@ u8 _by_Pattern7_VBUS_OCP_1p5A_dut0()
 		xil_printf(">>>>>>>>>>>> dut0_pattern7_vbus_ocp_1p5a_test_pass! <<<<<<<<<<<<\r\n");
 		xil_printf("dut0_efuse_1p5a=0x%x\r\n\r\n",dut0.g_vbusocp_writeefuse_1p5a);
 
-		dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
-		dut0.g_uartPatternNum = (dut0.g_uartPatternNum++ & 0xff);
+		dut0.g_uartPatternNum = 0x09;
 		result_output_for_v50(XPAR_AXI_GPIO_dut0_1_BASEADDR,dut0.g_uartPatternNum);
 		//xil_printf("dut0.g_uartPatternNum = %x\r\n\r\n",dut0.g_uartPatternNum);
 		break;

@@ -21,7 +21,7 @@ u8 _ccdet_calibration_dut0()
     	dut0.g_pattern_step=0;
     	dut0.g_ccdet_process_bit = ccdet_process_doing;
     	////////xil_printf("dut0.g_pattern_step = %x\r\n",dut0.g_pattern_step);
-    	xil_printf("dut0_dac_writen =%x,%x,%x\r\n",dut0.g_dac_data_buf[0],dut0.g_dac_data_buf[1],dut0.g_dac_data_buf[2]);
+    	//xil_printf("dut0_dac_writen =%x,%x,%x\r\n",dut0.g_dac_data_buf[0],dut0.g_dac_data_buf[1],dut0.g_dac_data_buf[2]);
 		break;
 	}
 	case ccdet_process_doing:

@@ -49,8 +49,8 @@
 
 //#define VBUSOCP_Efuse_0p9a_Min	10
 //#define VBUSOCP_Efuse_0p9a_Max	50
-#define VBUSOCP_Efuse_1p5a_Min	10
-#define VBUSOCP_Efuse_1p5a_Max	22
+#define VBUSOCP_Efuse_1p5a_Min	6
+#define VBUSOCP_Efuse_1p5a_Max	26
 #define VBUSOCP_Efuse_3a_Min	4
 #define VBUSOCP_Efuse_3a_Max	9
 

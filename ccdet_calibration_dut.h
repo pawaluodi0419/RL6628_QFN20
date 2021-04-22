@@ -55,6 +55,8 @@
 #define ccdet_process_doing	             0x01
 #define ccdet_process_done_pass	         0x3f
 #define ccdet_process_done_fail	         0x1f
+#define ccdet_writeefuse_min	         5
+#define ccdet_writeefuse_max	         16
 
 
 //extern global statement

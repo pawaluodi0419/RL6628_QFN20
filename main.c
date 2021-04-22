@@ -84,7 +84,7 @@ int main()
 	XGpio_WriteBit(XPAR_AXI_GPIO_dut0_1_BASEADDR,0,19, 0);	//CH7
 	XGpio_WriteBit(XPAR_AXI_GPIO_dut0_1_BASEADDR,0,20, 0);	//CH5
 
-	xil_printf("FT2 start!\r\nFPGA Version:RTS5444_ft_merge_release_bypass_3a_2021041901\r\n");
+	xil_printf("FT2 start!\r\nFPGA Version:RTS5444_ft_merge_release_bypass_3a_2021042101\r\n");
 
     u16 i=0;
 	u16 j=0;
@@ -413,7 +413,7 @@ int main()
 					}
 					case 0x08:
 					{
-						_by_Pattern8_VBUS_OCP_3A_dut0();
+						//_by_Pattern8_VBUS_OCP_3A_dut0();
 						break;
 					}
 					case 0x09:
@@ -492,7 +492,7 @@ int main()
 					}
 					case 0x08:
 					{
-						_by_Pattern8_VBUS_OCP_3A_dut1();
+						//_by_Pattern8_VBUS_OCP_3A_dut1();
 						break;
 					}
 					case 0x09:
@@ -571,7 +571,7 @@ int main()
 					}
 					case 0x08:
 					{
-						_by_Pattern8_VBUS_OCP_3A_dut2();
+						//_by_Pattern8_VBUS_OCP_3A_dut2();
 						break;
 					}
 					case 0x09:
@@ -650,7 +650,7 @@ int main()
 					}
 					case 0x08:
 					{
-						_by_Pattern8_VBUS_OCP_3A_dut3();
+						//_by_Pattern8_VBUS_OCP_3A_dut3();
 						break;
 					}
 					case 0x09:
